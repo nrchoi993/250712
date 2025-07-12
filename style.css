@@ -1,0 +1,24 @@
+/* Custom CSS for Global Citizen Infographic */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 400px;
+}
+@media (min-width: 768px) {
+    .chart-container {
+        height: 400px;
+    }
+}
+.flow-arrow {
+    font-size: 2rem;
+    color: #4ECDC4;
+    line-height: 1;
+}
